@@ -1,0 +1,78 @@
+<?xml version='1.0' standalone='yes'?>
+<root>
+  <row>
+    <doc_id>739922</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2018/01/739922/5884.jpg</image_src>
+  </row>
+  <row>
+    <doc_id>739821</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2018/01/739821/6779.jpg</image_src>
+    <image_caption>5G Timeline&lt;br /&gt;
+  (Source: &lt;a href="http://www.3gpp.org/news-events/3gpp-news/1930-sys_architecture"target="new"&gt;3GPP&lt;/a&gt;)
+  </image_caption>
+  </row>
+  <row>
+    <doc_id>738731</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/12/738731/795.jpg</image_src>
+  </row>
+  <row>
+    <doc_id>738351</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/11/738351/8560.jpg</image_src>
+  </row>
+  <row>
+    <doc_id>737677</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/11/737677/1703.jpg</image_src>
+  </row>
+  <row>
+    <doc_id>737677</doc_id>
+    <image_number>2</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/11/737677/1508.jpg</image_src>
+  </row>
+  <row>
+    <doc_id>737053</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/10/737053/66.png</image_src>
+  </row>
+  <row>
+    <doc_id>736772</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/10/736772/2525.png</image_src>
+    <image_caption>(Source: &lt;a href="https://www.crunchbase.com/#/home/index"target="new"&gt;Crunchbase&lt;/a&gt;)
+  </image_caption>
+  </row>
+  <row>
+    <doc_id>736772</doc_id>
+    <image_number>2</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/10/736772/2492.png</image_src>
+    <image_caption>(Source: &lt;a href="https://www.crunchbase.com/#/home/index"target="new"&gt;Crunchbase&lt;/a&gt;)</image_caption>
+  </row>
+  <row>
+    <doc_id>734982</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/08/734982/5949.jpg</image_src>
+    <image_caption>Velodyne's forthcoming Velarray LIDAR</image_caption>
+  </row>
+  <row>
+    <doc_id>734672</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/07/734672/2856.jpg</image_src>
+    <image_caption>BMW Connected+</image_caption>
+  </row>
+  <row>
+    <doc_id>734438</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/07/734438/2493.jpg</image_src>
+    <image_caption>Cisco Systems' Shaun Kirby</image_caption>
+  </row>
+  <row>
+    <doc_id>734184</doc_id>
+    <image_number>1</image_number>
+    <image_src>https://img.lightreading.com/theconnectedcar/2017/07/734184/6970.jpg</image_src>
+    <image_caption>An Uber self-driving car in Pittsburgh</image_caption>
+  </row>
+</root>
