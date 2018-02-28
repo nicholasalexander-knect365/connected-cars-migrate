@@ -1,4 +1,3 @@
-<rows>
 <row>
   <doc_id>740877</doc_id>
   <pub_id>theconnectedcar</pub_id>
@@ -176,7 +175,7 @@
   <pub_id>theconnectedcar</pub_id>
   <doc_pool>Public</doc_pool>
   <doc_section>627</doc_section>
-  <doc_published>2018-02-22T12:00:00</doc_published>R
+  <doc_published>2018-02-22T12:00:00</doc_published>
   <doc_editor>p.rainford@yahoo.co.uk</doc_editor>
   <doc_headline>Gallup: US Drivers Not Sold on Autonomous Vehicles</doc_headline>
   <doc_subhead>Gallop, Autonomous, self-driving vehicles, US, drivers, Silicon Valley, self-driving trucks, college-educated, </doc_subhead>
@@ -254,27 +253,6 @@
 &lt;p&gt;Now back, slightly befuddled, in the world of online journalism, Paul is thoroughly engaged with the modern world, regularly firing up his VHS video recorder and sending text messages to strangers using a chipped Nokia feature phone.&lt;/p&gt;</doc_editor_bio>
 </row>
 <row>
-  <doc_id>740776</doc_id>
-  <pub_id>theconnectedcar</pub_id>
-  <doc_pool>Public</doc_pool>
-  <doc_section>628</doc_section>
-  <doc_published>2018-02-22T00:00:00</doc_published>
-  <doc_headline>The Connected Car Newsletter for Feb. 22</doc_headline>
-  <doc_location>740723</doc_location>
-  <doc_summary_short>740360, 740196, 739969, 739543, 737923, 737958, 735452, 734441, 738611, 738841</doc_summary_short>
-  <doc_relatedlinks>740709,740702,740674,740654,740672,740650,740639</doc_relatedlinks>
-  <doc_timestamp>AAAAAADXBn8=</doc_timestamp>
-  <doc_doredirect>0</doc_doredirect>
-  <section_id>628</section_id>
-  <section_publication>theconnectedcar</section_publication>
-  <section_name>The Connected Car Newsletter</section_name>
-  <section_plural>The Connected Car Newsletter</section_plural>
-  <section_visible>1</section_visible>
-  <section_url>/theconnectedcar_newsletter_html.asp?in_docid={doc_id}</section_url>
-  <section_site>theconnectedcar</section_site>
-  <section_license>0</section_license>
-</row>
-<row>
   <doc_id>740709</doc_id>
   <pub_id>theconnectedcar</pub_id>
   <doc_pool>Public</doc_pool>
@@ -336,8 +314,9 @@
   <doc_headline>TU-Automotive Digital Insurance Europe</doc_headline>
   <doc_location>London, UK</doc_location>
   <doc_summary_short>Wednesday, April 18 &amp; Thursday, April 19, 2018</doc_summary_short>
+  <doc_image>https://img.lightreading.com/events/TU-Automotive-Digital-Insurance-Europe.jpg</doc_image>
   <doc_url>https://automotive.knect365.com/tu-automotive-digital-insurance/</doc_url>
-  <doc_timestamp>AAAAAADW/1Q=</doc_timestamp>
+  <doc_timestamp>AAAAAADXRN0=</doc_timestamp>
   <doc_doredirect>0</doc_doredirect>
   <section_id>666</section_id>
   <section_publication>theconnectedcar</section_publication>
@@ -472,8 +451,9 @@
   <doc_headline>TU-Automotive Cybersecurity</doc_headline>
   <doc_location>Suburban Collection Showplace, Novi</doc_location>
   <doc_summary_short>Wednesday, June 6 &amp; Thursday, June 7, 2018</doc_summary_short>
+  <doc_image>https://img.lightreading.com/events/TU-Automotive-Cybersecurity.jpg</doc_image>
   <doc_url>https://automotive.knect365.com/automotive-cybersecurity/</doc_url>
-  <doc_timestamp>AAAAAADW/4Y=</doc_timestamp>
+  <doc_timestamp>AAAAAADXROQ=</doc_timestamp>
   <doc_doredirect>0</doc_doredirect>
   <section_id>666</section_id>
   <section_publication>theconnectedcar</section_publication>
@@ -807,27 +787,6 @@
   <section_type>Blog</section_type>
   <section_license>0</section_license>
   <section_public_byline>Staff</section_public_byline>
-</row>
-<row>
-  <doc_id>740616</doc_id>
-  <pub_id>theconnectedcar</pub_id>
-  <doc_pool>Public</doc_pool>
-  <doc_section>628</doc_section>
-  <doc_published>2018-02-15T00:00:00</doc_published>
-  <doc_headline>The Connected Car Newsletter for Feb. 15</doc_headline>
-  <doc_location>740608</doc_location>
-  <doc_summary_short>740360, 740196, 739969, 739543, 737923, 737958, 735452, 734441, 738611, 738841</doc_summary_short>
-  <doc_relatedlinks>740538,740572,740581,740544,740497,740465,740404</doc_relatedlinks>
-  <doc_timestamp>AAAAAADW5gc=</doc_timestamp>
-  <doc_doredirect>0</doc_doredirect>
-  <section_id>628</section_id>
-  <section_publication>theconnectedcar</section_publication>
-  <section_name>The Connected Car Newsletter</section_name>
-  <section_plural>The Connected Car Newsletter</section_plural>
-  <section_visible>1</section_visible>
-  <section_url>/theconnectedcar_newsletter_html.asp?in_docid={doc_id}</section_url>
-  <section_site>theconnectedcar</section_site>
-  <section_license>0</section_license>
 </row>
 <row>
   <doc_id>740581</doc_id>
@@ -1219,27 +1178,6 @@
   <section_public_byline>Staff</section_public_byline>
 </row>
 <row>
-  <doc_id>740418</doc_id>
-  <pub_id>theconnectedcar</pub_id>
-  <doc_pool>Public</doc_pool>
-  <doc_section>628</doc_section>
-  <doc_published>2018-02-08T00:00:00</doc_published>
-  <doc_headline>The Connected Car Newsletter for Feb. 8</doc_headline>
-  <doc_location>740367</doc_location>
-  <doc_summary_short>740360, 740196, 739969, 739543, 737923, 737958, 735452, 734441, 738611, 738841</doc_summary_short>
-  <doc_relatedlinks>740419,740316,740345,740286,740331,740250,740163</doc_relatedlinks>
-  <doc_timestamp>AAAAAADWwxM=</doc_timestamp>
-  <doc_doredirect>0</doc_doredirect>
-  <section_id>628</section_id>
-  <section_publication>theconnectedcar</section_publication>
-  <section_name>The Connected Car Newsletter</section_name>
-  <section_plural>The Connected Car Newsletter</section_plural>
-  <section_visible>1</section_visible>
-  <section_url>/theconnectedcar_newsletter_html.asp?in_docid={doc_id}</section_url>
-  <section_site>theconnectedcar</section_site>
-  <section_license>0</section_license>
-</row>
-<row>
   <doc_id>740163</doc_id>
   <pub_id>theconnectedcar</pub_id>
   <doc_name>5713972227001</doc_name>
@@ -1361,6 +1299,41 @@
   <event_admin>1</event_admin>
 </row>
 <row>
+  <doc_id>740456</doc_id>
+  <pub_id>theconnectedcar</pub_id>
+  <doc_pool>Public</doc_pool>
+  <doc_section>626</doc_section>
+  <doc_published>2018-02-07T00:00:00</doc_published>
+  <doc_editor>elmo@lightreading.com</doc_editor>
+  <doc_headline>Connected &amp; Autonomous Cars Report 4: Mapping &amp; Harvesting the Benefits of Industry Intersections</doc_headline>
+  <doc_summary_short>This is the last in a series of four reports discussing the dynamic connected car and autonomous vehicle industry. The intent of the previous three reports was to step back, and, as we transition from 2017 to 2018, take stock and freeze-frame the dynamics to provide a canvas for forward thinking.</doc_summary_short>
+  <doc_summary_med>&lt;p&gt;This is the last in a series of four reports discussing the dynamic connected car and autonomous vehicle industry. The intent of the previous three reports was to step back, and, as we transition from 2017 to 2018, take stock and freeze-frame the dynamics to provide a canvas for forward thinking.&lt;/p&gt;
+
+
+&lt;p&gt;This report attempts to put the automotive and telecoms industries in the context of the other factors impacting industries, as they transition from purely physical to cyber physical operations and solutions.&lt;/p&gt;</doc_summary_med>
+  <doc_url>https://img.lightreading.com/theconnectedcar/downloads/ANALYSTS-CORNER-Connected-Autonomous-Cars-Blog-4-Mapping-Harvesting-the-Benefits-of-Industry-Intersections.pdf</doc_url>
+  <doc_timestamp>AAAAAADWx2g=</doc_timestamp>
+  <doc_doredirect>1</doc_doredirect>
+  <section_id>626</section_id>
+  <section_publication>theconnectedcar</section_publication>
+  <section_name>Information Resources - Inactive</section_name>
+  <section_plural>Information Resources - Inactive</section_plural>
+  <section_visible>1</section_visible>
+  <section_site>theconnectedcar</section_site>
+  <section_type>White Papers</section_type>
+  <section_license>0</section_license>
+  <id>8</id>
+  <doc_editor>elmo@lightreading.com</doc_editor>
+  <doc_editor_name>Marc Elmo</doc_editor_name>
+  <super_user>1</super_user>
+  <sort_order>5</sort_order>
+  <is_active>1</is_active>
+  <author_firstname>Marc</author_firstname>
+  <author_lastname>Elmo</author_lastname>
+  <is_author>0</is_author>
+  <event_admin>1</event_admin>
+</row>
+<row>
   <doc_id>740410</doc_id>
   <pub_id>theconnectedcar</pub_id>
   <doc_pool>Public</doc_pool>
@@ -1403,7 +1376,7 @@
   <doc_editor>elmo@lightreading.com</doc_editor>
   <doc_headline>ANALYST’S CORNER: Connected &amp; Autonomous Cars Report Two: Gradually Suddenly</doc_headline>
   <doc_summary_short>This second report will discuss how the OEMS, ecosystem players and mobile operators should also be hyperaware of two other effects that will impact them and many other industries. The first is the “gradually  suddenly” scenario, where combinations of gradually evolving technologies are suddenly having an exponential impact because of the addition of a simple catalyst technology.</doc_summary_short>
-  <doc_summary_med>&lt;p&gt;In the first report in this series, we examined factors of the tectonic shift occurring in the automotive industry and
+  <doc_summary_med>&lt;p&gt;In the first report in this series, we examined factors of the tectonic shift occurring in the automotive industry and 
 its frontiers, resulting in OEMs radically rethinking their business models.&lt;/p&gt;
 
 &lt;p&gt;This second report will discuss how the OEMS, ecosystem players and mobile operators should also be hyperaware of two other effects that will impact them and many other industries. The first is the “gradually  suddenly” scenario, where combinations of gradually evolving technologies are suddenly having an exponential impact because of the addition of a simple catalyst technology. The second effect is the “adjacent possible” concept. Download this free report to learn more.&lt;/p&gt;</doc_summary_med>
@@ -1441,41 +1414,6 @@ its frontiers, resulting in OEMs radically rethinking their business models.&lt;
   <doc_summary_med>&lt;p&gt;This is the third report in a series of four that will look at the dynamics of the connected and autonomous car space. In this report we will link the concepts and impacts, highlighted in the two previous reports, to the communications fabric that has enabled the connected car of today. From the earliest car phones that had fixed-line style handsets and cradles, to Bluetooth-linked smartphones and modern 4G enabled in car WiFi hotspots, drivers as well as passengers have become increasingly connected. Download this report to learn more.&lt;/p&gt;</doc_summary_med>
   <doc_url>https://img.lightreading.com/theconnectedcar/downloads/ANALYSTS-CORNER-Connected-Autonomous-Cars-Blog-Three-Communications-Fabric.pdf</doc_url>
   <doc_timestamp>AAAAAADWw5M=</doc_timestamp>
-  <doc_doredirect>1</doc_doredirect>
-  <section_id>626</section_id>
-  <section_publication>theconnectedcar</section_publication>
-  <section_name>Information Resources - Inactive</section_name>
-  <section_plural>Information Resources - Inactive</section_plural>
-  <section_visible>1</section_visible>
-  <section_site>theconnectedcar</section_site>
-  <section_type>White Papers</section_type>
-  <section_license>0</section_license>
-  <id>8</id>
-  <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_editor_name>Marc Elmo</doc_editor_name>
-  <super_user>1</super_user>
-  <sort_order>5</sort_order>
-  <is_active>1</is_active>
-  <author_firstname>Marc</author_firstname>
-  <author_lastname>Elmo</author_lastname>
-  <is_author>0</is_author>
-  <event_admin>1</event_admin>
-</row>
-<row>
-  <doc_id>740456</doc_id>
-  <pub_id>theconnectedcar</pub_id>
-  <doc_pool>Public</doc_pool>
-  <doc_section>626</doc_section>
-  <doc_published>2018-02-07T00:00:00</doc_published>
-  <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>Connected &amp; Autonomous Cars Report 4: Mapping &amp; Harvesting the Benefits of Industry Intersections</doc_headline>
-  <doc_summary_short>This is the last in a series of four reports discussing the dynamic connected car and autonomous vehicle industry. The intent of the previous three reports was to step back, and, as we transition from 2017 to 2018, take stock and freeze-frame the dynamics to provide a canvas for forward thinking.</doc_summary_short>
-  <doc_summary_med>&lt;p&gt;This is the last in a series of four reports discussing the dynamic connected car and autonomous vehicle industry. The intent of the previous three reports was to step back, and, as we transition from 2017 to 2018, take stock and freeze-frame the dynamics to provide a canvas for forward thinking.&lt;/p&gt;
-
-
-&lt;p&gt;This report attempts to put the automotive and telecoms industries in the context of the other factors impacting industries, as they transition from purely physical to cyber physical operations and solutions.&lt;/p&gt;</doc_summary_med>
-  <doc_url>https://img.lightreading.com/theconnectedcar/downloads/ANALYSTS-CORNER-Connected-Autonomous-Cars-Blog-4-Mapping-Harvesting-the-Benefits-of-Industry-Intersections.pdf</doc_url>
-  <doc_timestamp>AAAAAADWx2g=</doc_timestamp>
   <doc_doredirect>1</doc_doredirect>
   <section_id>626</section_id>
   <section_publication>theconnectedcar</section_publication>
@@ -1822,27 +1760,6 @@ its frontiers, resulting in OEMs radically rethinking their business models.&lt;
   <doc_editor_bio>&lt;p&gt;Based on the Isle of Wight, a rocky outcrop off the English coast that is home only to a colony of technology journalists and several thousand puffins, Paul has worked as a copy editor and sometime writer since the age of William Caxton, covering the design industry, D-list celebs, tourism and much, much more.&lt;/p&gt;
 &lt;p&gt;During the nougthies he took time out from his page proofs and marker pens to run a small hotel with his other half in the wilds of Exmoor. There he developed a range of skills including carrying cooked breakfasts, lying to unwanted guests and stopping leaks with old towels.&lt;/p&gt;
 &lt;p&gt;Now back, slightly befuddled, in the world of online journalism, Paul is thoroughly engaged with the modern world, regularly firing up his VHS video recorder and sending text messages to strangers using a chipped Nokia feature phone.&lt;/p&gt;</doc_editor_bio>
-</row>
-<row>
-  <doc_id>740221</doc_id>
-  <pub_id>theconnectedcar</pub_id>
-  <doc_pool>Public</doc_pool>
-  <doc_section>628</doc_section>
-  <doc_published>2018-02-01T00:00:00</doc_published>
-  <doc_headline>The Connected Car Newsletter for Feb. 1</doc_headline>
-  <doc_location>740108</doc_location>
-  <doc_summary_short>740196, 739969, 739543, 737923, 737958, 735452, 734441, 738611, 738841</doc_summary_short>
-  <doc_relatedlinks>740192,740141,740104,740020,740085,740086,740021</doc_relatedlinks>
-  <doc_timestamp>AAAAAADWl9Y=</doc_timestamp>
-  <doc_doredirect>0</doc_doredirect>
-  <section_id>628</section_id>
-  <section_publication>theconnectedcar</section_publication>
-  <section_name>The Connected Car Newsletter</section_name>
-  <section_plural>The Connected Car Newsletter</section_plural>
-  <section_visible>1</section_visible>
-  <section_url>/theconnectedcar_newsletter_html.asp?in_docid={doc_id}</section_url>
-  <section_site>theconnectedcar</section_site>
-  <section_license>0</section_license>
 </row>
 <row>
   <doc_id>740108</doc_id>
@@ -2265,27 +2182,6 @@ its frontiers, resulting in OEMs radically rethinking their business models.&lt;
   <section_public_byline>Staff</section_public_byline>
 </row>
 <row>
-  <doc_id>740019</doc_id>
-  <pub_id>theconnectedcar</pub_id>
-  <doc_pool>Public</doc_pool>
-  <doc_section>628</doc_section>
-  <doc_published>2018-01-25T00:00:00</doc_published>
-  <doc_headline>The Connected Car Newsletter for Jan. 25</doc_headline>
-  <doc_location>739922</doc_location>
-  <doc_summary_short>739969, 739543, 737923, 737958, 735452, 734441, 738611, 738841</doc_summary_short>
-  <doc_relatedlinks>739821,739871,739859,739870,739858,739918,739869</doc_relatedlinks>
-  <doc_timestamp>AAAAAADWXxk=</doc_timestamp>
-  <doc_doredirect>0</doc_doredirect>
-  <section_id>628</section_id>
-  <section_publication>theconnectedcar</section_publication>
-  <section_name>The Connected Car Newsletter</section_name>
-  <section_plural>The Connected Car Newsletter</section_plural>
-  <section_visible>1</section_visible>
-  <section_url>/theconnectedcar_newsletter_html.asp?in_docid={doc_id}</section_url>
-  <section_site>theconnectedcar</section_site>
-  <section_license>0</section_license>
-</row>
-<row>
   <doc_id>739918</doc_id>
   <pub_id>theconnectedcar</pub_id>
   <doc_pool>Public</doc_pool>
@@ -2688,27 +2584,6 @@ its frontiers, resulting in OEMs radically rethinking their business models.&lt;
 &lt;p&gt;Now back, slightly befuddled, in the world of online journalism, Paul is thoroughly engaged with the modern world, regularly firing up his VHS video recorder and sending text messages to strangers using a chipped Nokia feature phone.&lt;/p&gt;</doc_editor_bio>
 </row>
 <row>
-  <doc_id>739811</doc_id>
-  <pub_id>theconnectedcar</pub_id>
-  <doc_pool>Public</doc_pool>
-  <doc_section>628</doc_section>
-  <doc_published>2018-01-18T00:00:00</doc_published>
-  <doc_headline>The Connected Car Newsletter for Jan. 18</doc_headline>
-  <doc_location>739564</doc_location>
-  <doc_summary_short>739543, 737923, 737958, 735452, 734441, 738611, 738841</doc_summary_short>
-  <doc_relatedlinks>739659,739664,739663,739563,739548,739540,739491</doc_relatedlinks>
-  <doc_timestamp>AAAAAADWJuM=</doc_timestamp>
-  <doc_doredirect>0</doc_doredirect>
-  <section_id>628</section_id>
-  <section_publication>theconnectedcar</section_publication>
-  <section_name>The Connected Car Newsletter</section_name>
-  <section_plural>The Connected Car Newsletter</section_plural>
-  <section_visible>1</section_visible>
-  <section_url>/theconnectedcar_newsletter_html.asp?in_docid={doc_id}</section_url>
-  <section_site>theconnectedcar</section_site>
-  <section_license>0</section_license>
-</row>
-<row>
   <doc_id>739659</doc_id>
   <pub_id>theconnectedcar</pub_id>
   <doc_pool>Public</doc_pool>
@@ -3007,27 +2882,6 @@ its frontiers, resulting in OEMs radically rethinking their business models.&lt;
   <section_public_byline>Staff</section_public_byline>
 </row>
 <row>
-  <doc_id>739607</doc_id>
-  <pub_id>theconnectedcar</pub_id>
-  <doc_pool>Public</doc_pool>
-  <doc_section>628</doc_section>
-  <doc_published>2018-01-11T00:00:00</doc_published>
-  <doc_headline>The Connected Car Newsletter for Jan. 11</doc_headline>
-  <doc_location>739489</doc_location>
-  <doc_summary_short>739543, 737923, 737958, 735452, 734441, 738611, 738841</doc_summary_short>
-  <doc_relatedlinks>739471,739386,739565,739411,739390,739389,739387</doc_relatedlinks>
-  <doc_timestamp>AAAAAADV7iY=</doc_timestamp>
-  <doc_doredirect>0</doc_doredirect>
-  <section_id>628</section_id>
-  <section_publication>theconnectedcar</section_publication>
-  <section_name>The Connected Car Newsletter</section_name>
-  <section_plural>The Connected Car Newsletter</section_plural>
-  <section_visible>1</section_visible>
-  <section_url>/theconnectedcar_newsletter_html.asp?in_docid={doc_id}</section_url>
-  <section_site>theconnectedcar</section_site>
-  <section_license>0</section_license>
-</row>
-<row>
   <doc_id>739471</doc_id>
   <pub_id>theconnectedcar</pub_id>
   <doc_pool>Public</doc_pool>
@@ -3052,4 +2906,202 @@ its frontiers, resulting in OEMs radically rethinking their business models.&lt;
   <section_license>0</section_license>
   <section_public_byline>Staff</section_public_byline>
 </row>
-</rows>
+<row>
+  <doc_id>739565</doc_id>
+  <pub_id>theconnectedcar</pub_id>
+  <doc_name>5706775520001</doc_name>
+  <doc_pool>Public</doc_pool>
+  <doc_section>629</doc_section>
+  <doc_published>2018-01-10T11:00:00</doc_published>
+  <doc_editor>p.rainford@yahoo.co.uk</doc_editor>
+  <doc_headline>At CES, The Car Is Now the Platform</doc_headline>
+  <doc_headline_short>At CES, The Car Is Now the Platform</doc_headline_short>
+  <doc_subhead>CES, Las Vegas, autonomous vehicles, connected car, artificial intelligence, smart cities, Nvidia, GPU, 5G</doc_subhead>
+  <doc_summary_short>At CES in Las Vegas, Heavy Reading analyst Steve Bell is on the lookout for the biggest developments in artificial intelligence, 5G and smart cities technologies, and how these will be incorporated within autonomous vehicles.</doc_summary_short>
+  <doc_summary_long>At CES in Las Vegas, Heavy Reading analyst Steve Bell is on the lookout for the biggest developments in artificial intelligence, 5G and smart cities technologies, and how these will be incorporated within autonomous vehicles. This year, the north hall of the Las Vegas Convention Center looks more like a car show than a technology event. It's also where Nvidia revealed how the company's powerful GPUs are making it all possible.</doc_summary_long>
+  <doc_image>https://img.lightreading.com/theconnectedcar/2018/01/739565/2592.png</doc_image>
+  <doc_sort>02:30</doc_sort>
+  <doc_timestamp>AAAAAADV5rI=</doc_timestamp>
+  <doc_doredirect>0</doc_doredirect>
+  <section_id>629</section_id>
+  <section_publication>theconnectedcar</section_publication>
+  <section_name>The Connected Car TV</section_name>
+  <section_plural>The Connected Car TV</section_plural>
+  <section_visible>1</section_visible>
+  <section_url>/video.asp?section_id={section_id}&amp;doc_id={doc_id}</section_url>
+  <section_site>theconnectedcar</section_site>
+  <section_type>Video Blog</section_type>
+  <section_license>0</section_license>
+  <id>47</id>
+  <doc_editor>p.rainford@yahoo.co.uk</doc_editor>
+  <doc_editor_name>Paul Rainford</doc_editor_name>
+  <super_user>1</super_user>
+  <sort_order>2</sort_order>
+  <is_active>1</is_active>
+  <author_firstname>Paul</author_firstname>
+  <author_lastname>Rainford</author_lastname>
+  <is_author>1</is_author>
+  <event_admin>0</event_admin>
+  <doc_editor_title>Assistant Editor, Europe</doc_editor_title>
+  <doc_editor_image_square>//img.lightreading.com/blogs/Paul-Rainford.jpg</doc_editor_image_square>
+  <doc_editor_bio>&lt;p&gt;Based on the Isle of Wight, a rocky outcrop off the English coast that is home only to a colony of technology journalists and several thousand puffins, Paul has worked as a copy editor and sometime writer since the age of William Caxton, covering the design industry, D-list celebs, tourism and much, much more.&lt;/p&gt;
+&lt;p&gt;During the nougthies he took time out from his page proofs and marker pens to run a small hotel with his other half in the wilds of Exmoor. There he developed a range of skills including carrying cooked breakfasts, lying to unwanted guests and stopping leaks with old towels.&lt;/p&gt;
+&lt;p&gt;Now back, slightly befuddled, in the world of online journalism, Paul is thoroughly engaged with the modern world, regularly firing up his VHS video recorder and sending text messages to strangers using a chipped Nokia feature phone.&lt;/p&gt;</doc_editor_bio>
+</row>
+<row>
+  <doc_id>739411</doc_id>
+  <pub_id>theconnectedcar</pub_id>
+  <doc_pool>Public</doc_pool>
+  <doc_section>627</doc_section>
+  <doc_published>2018-01-10T08:00:00</doc_published>
+  <doc_headline>Autonomous Car Testing in Moscow Is Hard &amp; Necessary</doc_headline>
+  <doc_subhead>autonomous vehicles, self-driving, driverless, Moscow, Russia, hackathon, Uber, Nvidia</doc_subhead>
+  <doc_summary_med>A three-day hackathon showed just how hard it is to design an autonomous system for Moscow roads.</doc_summary_med>
+  <doc_image>https://img.lightreading.com/theconnectedcar/2018/01/739411/3729.jpg</doc_image>
+  <doc_author>sam@10tenmedia.com</doc_author>
+  <doc_timestamp>AAAAAADV2M0=</doc_timestamp>
+  <doc_doredirect>0</doc_doredirect>
+  <doc_featuredimgurl>https://img.lightreading.com/theconnectedcar/2018/01/739411/3742.jpg</doc_featuredimgurl>
+  <section_id>627</section_id>
+  <section_publication>theconnectedcar</section_publication>
+  <section_name>News Analysis</section_name>
+  <section_plural>News Analysis</section_plural>
+  <section_visible>1</section_visible>
+  <section_url>/author.asp?section_id={section_id}&amp;doc_id={doc_id}</section_url>
+  <section_site>theconnectedcar</section_site>
+  <section_type>Blog</section_type>
+  <section_license>0</section_license>
+  <section_public_byline>Staff</section_public_byline>
+</row>
+<row>
+  <doc_id>739390</doc_id>
+  <pub_id>theconnectedcar</pub_id>
+  <doc_pool>Public</doc_pool>
+  <doc_section>627</doc_section>
+  <doc_published>2018-01-09T12:00:00</doc_published>
+  <doc_headline>LG, HERE Developing Mapping, Location Services</doc_headline>
+  <doc_subhead>LG, HERE, telematics, 5G, connectivity, autonomous vehicles, self driving, driverless</doc_subhead>
+  <doc_summary_med>LG expects 5G connectivity to enhance its offering with HERE that builds off its HD Live Map.
+</doc_summary_med>
+  <doc_image>https://img.lightreading.com/theconnectedcar/2018/01/739390/8288.jpg</doc_image>
+  <doc_author>justin@10tenmedia.com</doc_author>
+  <doc_timestamp>AAAAAADV16c=</doc_timestamp>
+  <doc_doredirect>0</doc_doredirect>
+  <doc_featuredimgurl>https://img.lightreading.com/theconnectedcar/2018/01/739390/8294.jpg</doc_featuredimgurl>
+  <section_id>627</section_id>
+  <section_publication>theconnectedcar</section_publication>
+  <section_name>News Analysis</section_name>
+  <section_plural>News Analysis</section_plural>
+  <section_visible>1</section_visible>
+  <section_url>/author.asp?section_id={section_id}&amp;doc_id={doc_id}</section_url>
+  <section_site>theconnectedcar</section_site>
+  <section_type>Blog</section_type>
+  <section_license>0</section_license>
+  <section_public_byline>Staff</section_public_byline>
+</row>
+<row>
+  <doc_id>739389</doc_id>
+  <pub_id>theconnectedcar</pub_id>
+  <doc_pool>Public</doc_pool>
+  <doc_section>627</doc_section>
+  <doc_published>2018-01-09T08:00:00</doc_published>
+  <doc_headline>Lithium Ion Battery Inventor: EVs Need Stronger Batteries</doc_headline>
+  <doc_subhead>electric vehicles, lithium ion, batteries, EV, autonomous, self-driving, driverless, Tesla</doc_subhead>
+  <doc_summary_med>Akira Yoshino tells Bloomberg that form ought to follow function for the next generation of automotive batteries.</doc_summary_med>
+  <doc_image>https://img.lightreading.com/theconnectedcar/2017/01/739389/6788.jpg</doc_image>
+  <doc_author>sam@10tenmedia.com</doc_author>
+  <doc_timestamp>AAAAAADV1Qw=</doc_timestamp>
+  <doc_doredirect>0</doc_doredirect>
+  <doc_featuredimgurl>https://img.lightreading.com/theconnectedcar/2017/01/739389/6795.jpg</doc_featuredimgurl>
+  <section_id>627</section_id>
+  <section_publication>theconnectedcar</section_publication>
+  <section_name>News Analysis</section_name>
+  <section_plural>News Analysis</section_plural>
+  <section_visible>1</section_visible>
+  <section_url>/author.asp?section_id={section_id}&amp;doc_id={doc_id}</section_url>
+  <section_site>theconnectedcar</section_site>
+  <section_type>Blog</section_type>
+  <section_license>0</section_license>
+  <section_public_byline>Staff</section_public_byline>
+</row>
+<row>
+  <doc_id>739543</doc_id>
+  <pub_id>theconnectedcar</pub_id>
+  <doc_pool>Public</doc_pool>
+  <doc_section>625</doc_section>
+  <doc_published>2018-01-09T00:00:00</doc_published>
+  <doc_editor>burns@lightreading.com</doc_editor>
+  <doc_headline>ANALYST’S CORNER: Connected &amp; Autonomous Cars – Industry Overview One: Shifting Frontiers</doc_headline>
+  <doc_url>https://img.lightreading.com/theconnectedcar/downloads/ANALYSTS-CORNER-Connected-Autonomous-Cars-Industry-Overview-One-Shifting-Frontiers.pdf</doc_url>
+  <doc_timestamp>AAAAAADWVxQ=</doc_timestamp>
+  <doc_doredirect>1</doc_doredirect>
+  <section_id>625</section_id>
+  <section_publication>theconnectedcar</section_publication>
+  <section_name>Information Resources</section_name>
+  <section_plural>Information Resources</section_plural>
+  <section_visible>1</section_visible>
+  <section_site>theconnectedcar</section_site>
+  <section_type>White Papers</section_type>
+  <section_license>0</section_license>
+  <id>5</id>
+  <doc_editor>burns@lightreading.com</doc_editor>
+  <doc_editor_name>Bill Burns</doc_editor_name>
+  <super_user>1</super_user>
+  <sort_order>4</sort_order>
+  <is_active>1</is_active>
+  <author_firstname>Bill</author_firstname>
+  <author_lastname>Burns</author_lastname>
+  <is_author>0</is_author>
+  <event_admin>1</event_admin>
+</row>
+<row>
+  <doc_id>739387</doc_id>
+  <pub_id>theconnectedcar</pub_id>
+  <doc_pool>Public</doc_pool>
+  <doc_section>627</doc_section>
+  <doc_published>2018-01-08T12:50:00</doc_published>
+  <doc_headline>Velodyne Slashes Lidar Sensor Price in Half</doc_headline>
+  <doc_subhead>Velodyne, Lidar, David Hall, autonomous vehicles, self driving cars, driverless</doc_subhead>
+  <doc_summary_med>The Velodyne VLP-16 Lidar is down to a $4,000 price point.</doc_summary_med>
+  <doc_image>https://img.lightreading.com/theconnectedcar/2018/01/739387/564.jpg</doc_image>
+  <doc_author>justin@10tenmedia.com</doc_author>
+  <doc_timestamp>AAAAAADV1Ng=</doc_timestamp>
+  <doc_doredirect>0</doc_doredirect>
+  <doc_featuredimgurl>https://img.lightreading.com/theconnectedcar/2018/01/739387/573.jpg</doc_featuredimgurl>
+  <section_id>627</section_id>
+  <section_publication>theconnectedcar</section_publication>
+  <section_name>News Analysis</section_name>
+  <section_plural>News Analysis</section_plural>
+  <section_visible>1</section_visible>
+  <section_url>/author.asp?section_id={section_id}&amp;doc_id={doc_id}</section_url>
+  <section_site>theconnectedcar</section_site>
+  <section_type>Blog</section_type>
+  <section_license>0</section_license>
+  <section_public_byline>Staff</section_public_byline>
+</row>
+<row>
+  <doc_id>739386</doc_id>
+  <pub_id>theconnectedcar</pub_id>
+  <doc_pool>Public</doc_pool>
+  <doc_section>627</doc_section>
+  <doc_published>2018-01-08T08:00:00</doc_published>
+  <doc_headline>Apple Patent Hints at Autonomous Vehicle Plans</doc_headline>
+  <doc_subhead>Apple, autonomous vehicles, self-driving car, navigation system, patent application</doc_subhead>
+  <doc_summary_med>The patent application for 'Autonomous Navigation System' shows what Apple has been working on.
+</doc_summary_med>
+  <doc_image>https://img.lightreading.com/theconnectedcar/2018/01/739386/8629.jpg</doc_image>
+  <doc_author>justin@10tenmedia.com</doc_author>
+  <doc_timestamp>AAAAAADVy6w=</doc_timestamp>
+  <doc_doredirect>0</doc_doredirect>
+  <doc_featuredimgurl>https://img.lightreading.com/theconnectedcar/2018/01/739386/8637.jpg</doc_featuredimgurl>
+  <section_id>627</section_id>
+  <section_publication>theconnectedcar</section_publication>
+  <section_name>News Analysis</section_name>
+  <section_plural>News Analysis</section_plural>
+  <section_visible>1</section_visible>
+  <section_url>/author.asp?section_id={section_id}&amp;doc_id={doc_id}</section_url>
+  <section_site>theconnectedcar</section_site>
+  <section_type>Blog</section_type>
+  <section_license>0</section_license>
+  <section_public_byline>Staff</section_public_byline>
+</row>
