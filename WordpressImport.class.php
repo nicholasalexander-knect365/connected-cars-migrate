@@ -17,14 +17,7 @@ class WordpressImport {
 		
 		$this->fd = fopen($this->filename, 'w+') or die('can not open cli command file: ' . $file);
 
-		$this->fields = [ 'post_id', 'post_author', 'post_date', 'post_date_gmt', 
-					'post_content', 'post_content_filtered', 'post_title', 
-					'post_excerpt', 'post_status', 'post_type', 
-					'comment_status', 'ping_status', 
-					'post_password', 'post_name', 'to_ping', 'pinged', 
-					'post_modified', 'post_modified_gmt', 'post_parent',
-					'menu_order', 'post_mime_type', 'guid', 
-					'post_category', 'tags_input', 'tax_input', 'meta_input'];
+		$this->fields = [ 'post_id', 'post_author', 'post_date', 'post_date_gmt', 'post_content', 'post_content_filtered', 'post_title', 'post_excerpt', 'post_status', 'post_type', 'comment_status', 'ping_status', 'post_password', 'post_name', 'to_ping', 'pinged', 'post_modified', 'post_modified_gmt', 'post_parent', 'menu_order', 'post_mime_type', 'guid', 'post_category', 'tags_input', 'tax_input', 'meta_input'];
 	}
 
 	public function __destruct() {
@@ -45,7 +38,16 @@ class WordpressImport {
 		return $post;
 	}
 
+	public function makePostSQL() {
+		foreach ($this->fields as $field) {
+
+		}
+	}
 	public function makePost() {
+		return $this->makePostWPCLI();
+	}
+
+	public function makePostWPCLI() {
 		$post = $this->post;
 
 		$cmds = 'wp post create';		
@@ -62,13 +64,16 @@ class WordpressImport {
 					$cmd = ' --'.$field.'='.json_encode($post->$field);
 				}
 			} else {
-				$cmd = ' --'.$field."='".$post->$field."'";
+				$cmd = ' --'.$field."='". $post->$field ."'";
 			}
-
 			$cmds .= $cmd;
-		}
+print "\n".$cmd;
 
+		}
+print "\n\n";
 		$cmds .= "\n";
+
+print $cmds;
 		$this->makeCategories($cmds);
 	}
 
