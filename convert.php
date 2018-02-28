@@ -10,7 +10,6 @@ $pagesXml   = 'doc_pages.xml';
 $imagesXml  = 'doc_images.xml';
 $import = new WordpressImport();
 
-
 try {
 	$primary = simplexml_load_file($primaryXml);
 	$pages   = simplexml_load_file($pagesXml);

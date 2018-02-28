@@ -7,9 +7,10 @@ class WordpressImport {
 	public $fd;
 	public $post;
 	private $fields;
+	private $categoryCreated;
 
 	public function __construct($filename = 'wp_imports.cli') {
-		
+		$this->categoryCreated = [];	
 		$this->filename = $filename;
 		
 		$this->fd = fopen($this->filename, 'w+') or die('can not open cli command file: ' . $file);
@@ -65,11 +66,13 @@ class WordpressImport {
 		}
 		$cmds .= "\n";		
 
-		///////////////////////////////////////////////////////////////////
-		// TODO: we want one create category for each!!!!!
-		$createCategories .= 'wp term create category "' . ucfirst($category) . "\"\n";
-		///////////////////////////////////////////////////////////////////
-		fputs($this->fd, $categories);
+		foreach ($categories as $key => $category) {
+			$createCategory = 'wp term create category "' . ucfirst($category) . "\"\n";
+			if (!$this->categoryCreated[$category]) {
+				$this->categoryCreated[$category] = 1;
+				fputs($this->fd, $createCategory);
+			}
+		}
 		fputs($this->fd, $cmds);
 	}
 	public function makePage() {
