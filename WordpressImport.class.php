@@ -60,9 +60,10 @@ class WordpressImport {
 					foreach($post->$field as $category) {
 						$this->categories[$category] = json_encode($category);
 					}
-				} else {
-					$cmd = ' --'.$field.'='.json_encode($post->$field);
+
 				}
+				$cmd = ' --'.$field.'='.json_encode($post->$field);
+				
 			} else {
 				$cmd = ' --'.$field."='". $post->$field ."'";
 			}
