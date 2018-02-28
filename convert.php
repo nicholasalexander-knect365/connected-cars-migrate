@@ -72,9 +72,9 @@ $post->post_id = $docId;
 	$post->post_category = explode(',', (string)$row->section_name);
 	$post->tags_input =(string)$row->doc_subhead;
 	$post->tax_input = '';
-	$post->meta_input = [
-		'test-name' => 'Connected Cars', 
-		'description' => 'Connected Car News: Covering the latest news and analysis across telematics, driverless technology, infotainment, security and more.', 
-		'keywords' => 'Infotainment, Apps, Security, Telematics, Driverless Cars'];
+	// $post->meta_input = [
+	// 	'test-name' => 'Connected Cars', 
+	// 	'description' => 'Connected Car News: Covering the latest news and analysis across telematics, driverless technology, infotainment, security and more.', 
+	// 	'keywords' => 'Infotainment, Apps, Security, Telematics, Driverless Cars'];
 	$import->makePost($post);
 }
