@@ -7,10 +7,16 @@ class WordpressImport {
 	public $fd;
 	public $post;
 	private $fields;
+
+	public $cmds;
 	private $categoryCreated;
 	private $categories;
 
 	public function __construct($filename = 'wp_imports.cli') {
+		
+		// command stack
+		$this->cmds = [];
+
 		$this->categoryCreated = [];
 		$this->categories = [];	
 		$this->filename = $filename;
@@ -44,18 +50,12 @@ class WordpressImport {
 		}
 	}
 	public function makePost() {
-		return $this->makePostWPCLI();
-	}
-
-	public function makePostWPCLI() {
 		$post = $this->post;
 
 		$cmds = 'wp post create';		
 
 		foreach ($this->fields as $field) {
-
 			if (is_array($post->$field)) {
-
 				if ($field === 'post_category') {
 					foreach($post->$field as $category) {
 						$this->categories[$category] = json_encode($category);
@@ -67,26 +67,33 @@ class WordpressImport {
 				$cmd = ' --'.$field."='". $post->$field ."'";
 			}
 			$cmds .= $cmd;
-print "\n".$cmd;
-
 		}
-print "\n\n";
 		$cmds .= "\n";
-
-print $cmds;
-		$this->makeCategories($cmds);
+		$this->cmds[] = $cmds;
 	}
 
-	private function makeCategories(String $cmds) {
-		foreach ($this->categories as $key => $category) {			
+	public function writeCategories() {
+		$this->makeCategories();
+	}
+
+	public function writePosts() {
+		foreach ($this->cmds as $cmds) {
+			fputs($this->fd, $cmds);
+		}
+	}
+
+	private function makeCategories() {
+var_dump($this->categories);
+		foreach ($this->categories as $key => $category) {
 			if (!in_array($category, $this->categoryCreated)) {
 				$this->categoryCreated[] = $category;
 				$createCategory = 'wp term create category ' . ucfirst($category) . "\n";
+var_dump($createCategory);
 				fputs($this->fd, $createCategory);
 			}
 		}
-		fputs($this->fd, $cmds);
 	}
+
 	public function makePage() {
 
 	}
