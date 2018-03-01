@@ -15,6 +15,7 @@ try {
 	$pages   = simplexml_load_file($pagesXml);
 	$images  = simplexml_load_file($imagesXml);
 } catch (Exception $e) {
+	print 'Error reading XML';
 	die( $e->getMessage());
 }
 
@@ -34,20 +35,27 @@ function prepare($str) {
 
 	$str = str_replace(array("\r\n", "\r", "\n"), '', $str);
 	$str = html_entity_decode($str);
-		$str = preg_replace('/\'/', '&apos;', $str);
+	$str = preg_replace('/\'/', '&apos;', $str);
 	//$str = htmlentities($str, ENT_DISALLOWED);
 
 	return $str;
 }
 
-foreach($primary as $row) {
+//var_dump($primary);
 
+// $section = [];
+// foreach($primary as $row) {
+// 	$docId = (string)$row->doc_id;
+// 	$sections[(string)$row->section_url]++;
+// }
+// var_dump($sections);
+// die;
+foreach($primary as $row) {
 	$post = $import->initPost();
 
 	$docId = (string)$row->doc_id;
 
-
-	$post->post_id = $docId;
+	$post->id = $docId;
 	$post->post_author = (string)$row->doc_byline;
 
 	// convert
@@ -84,7 +92,7 @@ foreach($primary as $row) {
 	$post->menu_order = 0;
 	$post->mime_type = '';
 	
-	$post->guid = 0;
+	$post->guid = ''; //$docId;
 
 	$post->post_category = explode(',', (string)$row->section_name);
 
@@ -98,9 +106,13 @@ foreach($primary as $row) {
 	// 	'test-name' => 'Connected Cars', 
 	// 	'description' => 'Connected Car News: Covering the latest news and analysis across telematics, driverless technology, infotainment, security and more.', 
 	// 	'keywords' => 'Infotainment, Apps, Security, Telematics, Driverless Cars'];
+	$import->makePostCategory($post);
 	$import->makePost($post);
-
+	//var_dump($post);
 }
-
+//var_dump('posts made');
 $import->writeCategories();
 $import->writePosts();
+$process = new PostProcess();
+
+$import->writePostCategories();
