@@ -3,11 +3,13 @@
 require "DBConnect.class.php";
 require "WordpressImport.class.php";
 require "PostProcess.class.php";
+require "Images.class.php";
 
 $wpdb = new DBConnect($dbname = 'wordpress', $user = 'wp',    $pass = 'wp',     $server = 'localhost');
 
 $primaryXml = 'document.xml';
 $pagesXml   = 'doc_pages.xml';
+// only two images in this xml: do them by hand!
 $imagesXml  = 'doc_images.xml';
 $keywordsXml = 'doc_keywords.xml';
 
@@ -50,7 +52,7 @@ foreach($primary as $row) {
 
 	$post = $import->initPost();
 	$docId = (string)$row->doc_id;
-	$post->id = $docId;
+	$post->ID = $docId;
 	$post->post_author = (string)$row->doc_byline;
 
 	// convert
@@ -68,6 +70,9 @@ foreach($primary as $row) {
 		$post->content_filtered = $content;
 		// $post->post_content = $postProcess->extractUrl($content);
 		$post->post_content = $content;
+	}
+	if (strlen($images[$docId])) {
+
 	}
 	$post->post_title  = prepare((string)$row->doc_headline);
 
@@ -106,13 +111,18 @@ foreach($primary as $row) {
 	// 	'description' => 'Connected Car News: Covering the latest news and analysis across telematics, driverless technology, infotainment, security and more.', 
 	// 	'keywords' => 'Infotainment, Apps, Security, Telematics, Driverless Cars'];
 
+	$image = new Images($docId);
+	$image->setUrl((string)$row->doc_image);
+
 	$import->makePostCategory($post);
 	$import->makePost($post);
+	$import->attachImage($post, $image);
 	//var_dump($post); die;
 }
 //var_dump('posts made');
 $import->writeCategories();
 $import->writePosts();
-$process = new PostProcess();
 
+$process = new PostProcess();
 $import->writePostCategories();
+$import->writeImages();
