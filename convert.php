@@ -52,7 +52,8 @@ foreach($primary as $row) {
 
 	$post = $import->initPost();
 	$docId = (string)$row->doc_id;
-	$post->ID = $docId;
+	// TODO: make a meta of the docId?
+	// $post->post_id = $docId;
 	$post->post_author = (string)$row->doc_byline;
 
 	// convert
@@ -114,15 +115,15 @@ foreach($primary as $row) {
 	$image = new Images($docId);
 	$image->setUrl((string)$row->doc_image);
 
-	$import->makePostCategory($post);
+	// $import->makePostCategory($post);
 	$import->makePost($post);
 	$import->attachImage($post, $image);
 	//var_dump($post); die;
 }
-//var_dump('posts made');
+// var_dump('posts made');
 $import->writeCategories();
 $import->writePosts();
 
-$process = new PostProcess();
-$import->writePostCategories();
+// $process = new PostProcess();
+// $import->writePostCategories();
 $import->writeImages();

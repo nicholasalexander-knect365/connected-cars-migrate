@@ -29,7 +29,7 @@ class WordpressImport {
 
 		$this->fd = fopen($this->filename, 'w+') or die('can not open cli command file: ' . $file);
 
-		$this->fields = [ 'ID', 'post_author', 'post_date', 'post_date_gmt', 'post_content', 'post_content_filtered', 'post_title', 'post_excerpt', 'post_status', 'post_type', 'comment_status', 'ping_status', 'post_password', 'post_name', 'to_ping', 'pinged', 'post_modified', 'post_modified_gmt', 'post_parent', 'menu_order', 'post_mime_type', 'guid', 'post_category', 'tags_input', 'tax_input', 'meta_input'];
+		$this->fields = [ 'post_author', 'post_date', 'post_date_gmt', 'post_content', 'post_content_filtered', 'post_title', 'post_excerpt', 'post_status', 'post_type', 'comment_status', 'ping_status', 'post_password', 'post_name', 'to_ping', 'pinged', 'post_modified', 'post_modified_gmt', 'post_parent', 'menu_order', 'post_mime_type', 'guid', 'post_category', 'tags_input', 'tax_input'];
 	}
 
 	public function __destruct() {
@@ -112,7 +112,7 @@ class WordpressImport {
 
 	public function writePostCategories() {
 		return;
-		
+
 		foreach ($this->postCategories as $postCategory) {
 			fputs($this->fd, $postCategory. "\n");
 		}
