@@ -111,13 +111,10 @@ die('makeCategory');
 	}
 
 	public function writeCategories() {
-//die('writeCategories');
-//var_dump($this->categories);
 		foreach ($this->categories as $category => $key) {
 			if (!in_array($category, $this->categoryCreated)) {
 				$this->categoryCreated[] = $category;
 				$createCategory = 'wp term create category "' . ucfirst($category) . "\"\n";
-//var_dump($createCategory);
 				fputs($this->fd, $createCategory);
 			}
 		}
