@@ -111,7 +111,7 @@ die('makeCategory');
 	}
 
 	public function writeCategories() {
-die('writeCategories');
+//die('writeCategories');
 //var_dump($this->categories);
 		foreach ($this->categories as $category => $key) {
 			if (!in_array($category, $this->categoryCreated)) {
