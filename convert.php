@@ -2,29 +2,37 @@
 
 require "DBConnect.class.php";
 require "WordpressImport.class.php";
+require "PostProcess.class.php";
 
 $wpdb = new DBConnect($dbname = 'wordpress', $user = 'wp',    $pass = 'wp',     $server = 'localhost');
 
 $primaryXml = 'document.xml';
 $pagesXml   = 'doc_pages.xml';
 $imagesXml  = 'doc_images.xml';
-$import = new WordpressImport();
+$keywordsXml = 'doc_keywords.xml';
 
 try {
 	$primary = simplexml_load_file($primaryXml);
 	$pages   = simplexml_load_file($pagesXml);
 	$images  = simplexml_load_file($imagesXml);
+	$keywords = simplexml_load_file($keywordsXml);
 } catch (Exception $e) {
 	print 'Error reading XML';
 	die( $e->getMessage());
 }
 
+$doc_id = 0;
+$pageContent = [];
+
+
 $primaryKeys = array_keys((array)$primary->row);
 $pagesKeys = array_keys((array)$pages->row);
 $imagesKeys = array_keys((array)$images->row);
-$doc_id = 0;
+$keywordsKeys = array_keys((array)$keywords->row);
 
-$pageContent = [];
+$import = new WordpressImport();
+$postedit = new PostProcess();
+
 foreach($pages as $page) {
 	$pageId = (integer)$page->page_id;
 	$docId  = (integer)$page->doc_id;
@@ -32,29 +40,16 @@ foreach($pages as $page) {
 }
 
 function prepare($str) {
-
-	$str = str_replace(array("\r\n", "\r", "\n"), '', $str);
 	$str = html_entity_decode($str);
+	$str = str_replace(array("\r\n", "\r", "\n"), '', $str);
 	$str = preg_replace('/\'/', '&apos;', $str);
-	//$str = htmlentities($str, ENT_DISALLOWED);
-
 	return $str;
 }
 
-//var_dump($primary);
-
-// $section = [];
-// foreach($primary as $row) {
-// 	$docId = (string)$row->doc_id;
-// 	$sections[(string)$row->section_url]++;
-// }
-// var_dump($sections);
-// die;
 foreach($primary as $row) {
+
 	$post = $import->initPost();
-
 	$docId = (string)$row->doc_id;
-
 	$post->id = $docId;
 	$post->post_author = (string)$row->doc_byline;
 
@@ -62,18 +57,22 @@ foreach($primary as $row) {
 	$post->date = (string)$row->doc_published;
 
 	if (strlen($pageContent[$docId])) {
-		
-		// some pages do not have any content!
+		// some pages do not have content - they are events
 		$content = prepare($pageContent[$docId]);
+		
+		$postedit->setPost($content);
+		$postedit->localiseUrls();
+		$postedit->localiseImages();
+		$content = $postedit->getPost();
 
+		$post->content_filtered = $content;
+		// $post->post_content = $postProcess->extractUrl($content);
 		$post->post_content = $content;
 	}
-	$post->content_filtered = prepare((string)$row->doc_summary_med);
-	
 	$post->post_title  = prepare((string)$row->doc_headline);
-	// TODO: use a custom field for subhead? it appears to contain tags
+
+	// subhead contains a list of tags
 	$post->post_excerpt = prepare((string)$row->doc_summary_med);
-	
 	$post->post_status = (string)$row->doc_pool === 'Public' ? 'publish' : 'draft';
 	$post->post_type = 'post';
 	$post->comment_status = 'closed';
@@ -106,9 +105,10 @@ foreach($primary as $row) {
 	// 	'test-name' => 'Connected Cars', 
 	// 	'description' => 'Connected Car News: Covering the latest news and analysis across telematics, driverless technology, infotainment, security and more.', 
 	// 	'keywords' => 'Infotainment, Apps, Security, Telematics, Driverless Cars'];
+
 	$import->makePostCategory($post);
 	$import->makePost($post);
-	//var_dump($post);
+	//var_dump($post); die;
 }
 //var_dump('posts made');
 $import->writeCategories();

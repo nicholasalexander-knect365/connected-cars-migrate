@@ -38,7 +38,6 @@ class WordpressImport {
 		foreach ($fields as $field) {
 			$post->$field = '';
 		}
-
 		$post->post_parent = 0;
 		$post->menu_order = 0;
 		$post->status = 'Draft';
@@ -46,64 +45,54 @@ class WordpressImport {
 		return $post;
 	}
 
-	// public function makePostSQL() {
-	// 	foreach ($this->fields as $field) {
-
-	// 	}
-	// }
 	public function makePost() {
-		$post = $this->post;
 
+		$post = $this->post;
 		$cmds = 'wp post create';		
 
 		foreach ($this->fields as $field) {
 
 			if (is_array($post->$field)) {
+
 				if ($field === 'post_category') {
+
 					$myCategories = [];
 					foreach($post->post_category as $category) {
-// print "\nCategory is ".$category."\n";
-// var_dump($this->categories);
 						if (empty($this->categories[$category])) { 
-// var_dump('EMPTY!');
 							$this->categoryId++;
 							$this->categories[$category] = $this->categoryId;	
 						}
-// var_dump($this->categoryId);
 						foreach ($this->categories as $cat => $id) {
 							if ($cat === $category) {
 								$myCategories[] = $this->categories[$category];
 							}
 						}
 					}
-// var_dump( $myCategories);
 					$cmd = ' --'.$field.'='.json_encode(implode(',', $myCategories));
-//var_dump($cmd);
 				} else {
 					$cmd = ' --'.$field.'='.json_encode($post->$field);
 				}				
 			} else {
-//var_dump($field . ' was not an ARRAY');
 				$cmd = ' --'.$field."='". $post->$field ."'";
 			}
 			$cmds .= $cmd;
 		}
-		//$cmds .= ' --porcelain`';
 		$cmds .= "\n";
 		$this->cmds[] = $cmds;
 	}
 
-
 	public function writePosts() {
 		foreach ($this->cmds as $cmds) {
-			//print $cmds;
 			fputs($this->fd, $cmds);
 		}
 	}
 
 	public function makePostCategory($post) {
-		$cmd = sprintf('wp post term set %d %s category', $post->post_id, $post->category);
-		$this->postCategories[] = $cmd;
+//var_dump($post);
+		foreach ($post->post_category as $category) {
+			$cmd = sprintf('wp post term set %d %s category', $post->post_id, $category);
+			$this->postCategories[] = $cmd;
+		}
 	}
 
 	public function writePostCategories() {
@@ -112,7 +101,9 @@ class WordpressImport {
 		}
 	}
 
+	// TODO - APPEARS UNUSED CRUFT
 	private function makeCategory($category) {
+die('makeCategory');
 		//$this->categoryId++;
 		$createCategory = "wp term create category '" . ucfirst($category) . "\'\n";
 		fputs($this->fd, $createCategory);
@@ -120,6 +111,7 @@ class WordpressImport {
 	}
 
 	public function writeCategories() {
+die('writeCategories');
 //var_dump($this->categories);
 		foreach ($this->categories as $category => $key) {
 			if (!in_array($category, $this->categoryCreated)) {
