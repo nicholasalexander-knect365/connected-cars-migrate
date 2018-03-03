@@ -52,17 +52,45 @@ foreach($primary as $row) {
 
 	$post = $import->initPost();
 	$docId = (string)$row->doc_id;
+	$keywordNodes = [];
+	$imageNodes = [];
 
+	foreach ($keywords->children() as $node) {
+		foreach($node as $key => $value) {
+			$key = (string)$key;
+			$value = (string)$value;
+//var_dump($node);
+
+			if ($key === 'doc_id' && $value === $docId) {
+//var_dump($node,(integer)$node->decnode_weight);
+				if ((integer)$node->docnode_weight === 10) {
+					$keywordNodes[] = '**' . (string)$node->node_name;
+				} else {
+					$keywordNodes[] = (string)$node->node_name;
+				}
+			}
+		}
+	}
+	// in case there are images... 
+	foreach ($images->children() as $node) {
+		//var_dump($node);
+		foreach ($node as $key => $value) {
+			$key = (string)$key;
+			$value = (string)$value;
+			if ($key == 'doc_id' && $value === $docId) {
+				$imageNodes[] = (string)$value;
+			}		
+		}
+	}
+	//var_dump($keywordNodes, $imageNodes);
 	$post->post_author = (string)$row->doc_byline;
 
 	// convert
 	$post->date = (string)$row->doc_published;
 
 	if (strlen($pageContent[$docId])) {
-
 		// some pages do not have content - they are events
 		$content = prepare($pageContent[$docId]);
-		
 		$postedit->setPost($content);
 	} else {
 		$summary = (string)$row->doc_short_summary;
@@ -70,14 +98,12 @@ foreach($primary as $row) {
 		$text    = '<a href="' . $link . ' target="event">' . $summary . '</a>';
 		$postedit->setPost($text);
 	}
-		$postedit->localiseUrls();
-		$postedit->localiseImages();
-		$content = $postedit->getPost();
+	$postedit->localiseUrls();
+	$postedit->localiseImages();
+	$content = $postedit->getPost();
 
-		$post->content_filtered = $content;
-
-		$post->post_content = $content;
-
+	$post->content_filtered = $content;
+	$post->post_content = $content;
 	$post->post_title  = prepare((string)$row->doc_headline);
 
 	// subhead contains a list of tags
@@ -99,10 +125,11 @@ foreach($primary as $row) {
 
 	$post->menu_order = 0;
 	$post->mime_type = '';
-	
 	$post->guid = ''; 
-
-	$post->post_category = explode(',', (string)$row->section_name);
+	$categories = explode(',', (string)$row->section_name);
+	$post->post_category = array_merge($categories, $keywordNodes);
+// var_dump($keywordNodes);
+// var_dump($post->post_category);die;
 	$post->tags_input = prepare((string)$row->doc_subhead);
 	$post->tax_input = '';
 
