@@ -52,29 +52,32 @@ foreach($primary as $row) {
 
 	$post = $import->initPost();
 	$docId = (string)$row->doc_id;
-	// TODO: make a meta of the docId?
-	// $post->post_id = $docId;
+
 	$post->post_author = (string)$row->doc_byline;
 
 	// convert
 	$post->date = (string)$row->doc_published;
 
 	if (strlen($pageContent[$docId])) {
+
 		// some pages do not have content - they are events
 		$content = prepare($pageContent[$docId]);
 		
 		$postedit->setPost($content);
+	} else {
+		$summary = (string)$row->doc_short_summary;
+		$link    = (string)$row->doc_url;
+		$text    = '<a href="' . $link . ' target="event">' . $summary . '</a>';
+		$postedit->setPost($text);
+	}
 		$postedit->localiseUrls();
 		$postedit->localiseImages();
 		$content = $postedit->getPost();
 
 		$post->content_filtered = $content;
-		// $post->post_content = $postProcess->extractUrl($content);
-		$post->post_content = $content;
-	}
-	if (strlen($images[$docId])) {
 
-	}
+		$post->post_content = $content;
+
 	$post->post_title  = prepare((string)$row->doc_headline);
 
 	// subhead contains a list of tags
@@ -93,37 +96,25 @@ foreach($primary as $row) {
 
 	$post->post_modified_gmt = $post->post_modified;
 	$post->post_parent = 0;
-	// TODO: verify menu order - using doc_section as may be natural?
+
 	$post->menu_order = 0;
 	$post->mime_type = '';
 	
-	$post->guid = ''; //$docId;
+	$post->guid = ''; 
 
 	$post->post_category = explode(',', (string)$row->section_name);
-
-	//var_dump($docId, (string)$row->section_name, $post->post_category);
-
 	$post->tags_input = prepare((string)$row->doc_subhead);
 	$post->tax_input = '';
-
-	// meta causes problems ... debug!
-	// $post->meta_input = [
-	// 	'test-name' => 'Connected Cars', 
-	// 	'description' => 'Connected Car News: Covering the latest news and analysis across telematics, driverless technology, infotainment, security and more.', 
-	// 	'keywords' => 'Infotainment, Apps, Security, Telematics, Driverless Cars'];
 
 	$image = new Images($docId);
 	$image->setUrl((string)$row->doc_image);
 
-	// $import->makePostCategory($post);
 	$import->makePost($post);
 	$import->attachImage($post, $image);
-	//var_dump($post); die;
 }
-// var_dump('posts made');
+
 $import->writeCategories();
 $import->writePosts();
-
-// $process = new PostProcess();
-// $import->writePostCategories();
 $import->writeImages();
+
+// DONE

@@ -49,10 +49,6 @@ class WordpressImport {
 		return $post;
 	}
 
-	// public function initWp() {
-	// 	fputs($this->fd, 'wp meta add docId');
-	// }
-
 	public function makePost() {
 
 		$post = $this->post;
@@ -85,10 +81,7 @@ class WordpressImport {
 			}
 			$cmds .= $cmd;
 		}
-//var_dump($cmds);die;
-		// meta commands require the meta to exist first
-		// and wp cli does not want to create them!
-		// $cmds .= ' --meta_input=' . "'" . '{"docId":"' . $post->id . '"}' . "'";
+
 		$cmds .= "\n";
 		$this->cmds[] = $cmds;
 	}
@@ -97,36 +90,6 @@ class WordpressImport {
 		foreach ($this->cmds as $cmds) {
 			fputs($this->fd, $cmds);
 		}
-	}
-
-	public function makePostCategory($post) {
-		return;
-
-		// I think this is now irrelvant
-//var_dump($post);
-		foreach ($post->post_category as $category) {
-			$cmd = sprintf('wp post term set %d "%s" category', $post->ID, $category);
-			$this->postCategories[] = $cmd;
-		}
-	}
-
-	public function writePostCategories() {
-		return;
-
-		foreach ($this->postCategories as $postCategory) {
-			fputs($this->fd, $postCategory. "\n");
-		}
-	}
-
-	// TODO - APPEARS UNUSED CRUFT
-	private function makeCategory($category) {
-
-		die('makeCategory deprecated');
-		
-		//$this->categoryId++;
-		$createCategory = "wp term create category '" . ucfirst($category) . "\'\n";
-		fputs($this->fd, $createCategory);
-		//return $this->categoryId;
 	}
 
 	public function writeCategories() {
