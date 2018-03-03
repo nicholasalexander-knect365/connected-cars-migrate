@@ -9,6 +9,7 @@ class PostProcess {
     public function setPost($post) {
         $this->post = $post;
     }
+    
     public function getPost() {
         return $this->post;
     }
@@ -24,6 +25,7 @@ class PostProcess {
         $localUrl = '<a href="' . $urlScheme . '://' . $urlHost . $urlPath . '" ' . $target . '>'. $linkText . '</a>';
         return $localUrl;        
     }
+
     public function localiseUrls() {
 
         $urlCount = preg_match_all('/<a href="([^>]*)">([^<]+)<\/a>/', $this->post, $matches);  

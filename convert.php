@@ -26,7 +26,6 @@ try {
 $doc_id = 0;
 $pageContent = [];
 
-
 $primaryKeys = array_keys((array)$primary->row);
 $pagesKeys = array_keys((array)$pages->row);
 $imagesKeys = array_keys((array)$images->row);
@@ -45,6 +44,8 @@ function prepare($str) {
 	$str = html_entity_decode($str);
 	$str = str_replace(array("\r\n", "\r", "\n"), '', $str);
 	$str = preg_replace('/\'/', '&apos;', $str);
+	///$str = preg_replace('/\"/', '&quot;', $str);
+
 	return $str;
 }
 
@@ -54,6 +55,7 @@ foreach($primary as $row) {
 	$docId = (string)$row->doc_id;
 	$keywordNodes = [];
 	$imageNodes = [];
+	$eventPages = [];
 
 	foreach ($keywords->children() as $node) {
 		foreach($node as $key => $value) {
@@ -62,7 +64,7 @@ foreach($primary as $row) {
 
 			if ($key === 'doc_id' && $value === $docId) {
 				if ((integer)$node->docnode_weight === 10) {
-					$keywordNodes[] = '**' . (string)$node->node_name;
+					$keywordNodes[] = (string)$node->node_name;
 				} else {
 					$keywordNodes[] = (string)$node->node_name;
 				}
@@ -91,11 +93,17 @@ foreach($primary as $row) {
 		$content = prepare($pageContent[$docId]);
 		$postedit->setPost($content);
 	} else {
-		$summary = (string)$row->doc_summary_short;
+		$summary = prepare((string)$row->doc_summary_short);
 		$link    = (string)$row->doc_url;
-		$text    = '<a href="' . $link . ' target="event">' . $summary . '</a>';
+		if (strlen($link)) {
+			$text = '<a href="' . $link . '" target="event">' . $summary . '</a>';
+		} else {
+			$text = $summary;
+		}
 		$postedit->setPost($text);
+//var_dump($summary, $link, $text);
 	}
+
 	$postedit->localiseUrls();
 	$postedit->localiseImages();
 	$content = $postedit->getPost();
