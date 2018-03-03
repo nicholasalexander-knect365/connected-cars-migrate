@@ -59,10 +59,8 @@ foreach($primary as $row) {
 		foreach($node as $key => $value) {
 			$key = (string)$key;
 			$value = (string)$value;
-//var_dump($node);
 
 			if ($key === 'doc_id' && $value === $docId) {
-//var_dump($node,(integer)$node->decnode_weight);
 				if ((integer)$node->docnode_weight === 10) {
 					$keywordNodes[] = '**' . (string)$node->node_name;
 				} else {
@@ -93,7 +91,7 @@ foreach($primary as $row) {
 		$content = prepare($pageContent[$docId]);
 		$postedit->setPost($content);
 	} else {
-		$summary = (string)$row->doc_short_summary;
+		$summary = (string)$row->doc_summary_short;
 		$link    = (string)$row->doc_url;
 		$text    = '<a href="' . $link . ' target="event">' . $summary . '</a>';
 		$postedit->setPost($text);
