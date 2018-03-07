@@ -6,12 +6,21 @@ require "PostProcess.class.php";
 require "Images.class.php";
 
 $wpdb = new DBConnect($dbname = 'wordpress', $user = 'wp',    $pass = 'wp',     $server = 'localhost');
+$full = true;
 
-$primaryXml = 'document.xml';
-$pagesXml   = 'doc_pages.xml';
-// only two images in this xml: do them by hand!
-$imagesXml  = 'doc_images.xml';
-$keywordsXml = 'doc_keywords.xml';
+if ($full) {
+	$primaryXml = 'XML/document_full.xml';
+	$pagesXml   = 'XML/doc_pages_full.xml';
+	// only two images in this xml: do them by hand!
+	$imagesXml  = 'XML/doc_images_full.xml';
+	$keywordsXml = 'XML/doc_keywords_full.xml';
+} else {
+	$primaryXml = 'XML/example/document.xml';
+	$pagesXml   = 'XML/example/doc_pages.xml';
+	// only two images in this xml: do them by hand!
+	$imagesXml  = 'XML/example/doc_images.xml';
+	$keywordsXml = 'XML/example/doc_keywords.xml';
+}
 
 try {
 	$primary = simplexml_load_file($primaryXml);
