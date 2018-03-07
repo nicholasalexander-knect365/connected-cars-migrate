@@ -31,7 +31,9 @@ while($line = fgets($inFd)) {
 		}
 	}
 	$revised = preg_replace('/a href\=http([^\s]+) target/', 'a href="http${1}" target', $line);
-	if ($revised !== $line) {
+	$line = $revised;
+	$revised = preg_replace('/a href="http([^"]+)"target\=/', 'a href="http${1}" target=', $line);
+	if ($testing && $revised !== $line) {
 		print "\n" . $line;
 	}	
 	fputs($outFd, $revised);
