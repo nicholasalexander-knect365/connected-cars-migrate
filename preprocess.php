@@ -30,6 +30,10 @@ while($line = fgets($inFd)) {
 			print $line;
 		}
 	}
+	// $revised = preg_replace('/ü/', '#UMLAUT#', $line);
+	// $line = $revised;
+	$revised = preg_replace('/£/', '#UKPOUND#', $line);
+	$line = $revised;
 	$revised = preg_replace('/a href\=http([^\s]+) target/', 'a href="http${1}" target', $line);
 	$line = $revised;
 	$revised = preg_replace('/a href="http([^"]+)"target\=/', 'a href="http${1}" target=', $line);

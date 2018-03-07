@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rows>
 <row>
   <doc_id>734184</doc_id>
@@ -175,9 +176,9 @@
   <doc_section>627</doc_section>
   <doc_published>2017-07-07T09:00:00</doc_published>
   <doc_headline>Vodafone Finds German Partner for Insurance Telematics</doc_headline>
-  <doc_subhead>telematics, insurance, Vodafone, Württembergische Versicherung, connectivity, Allstate, auto accident, safe driving</doc_subhead>
+  <doc_subhead>telematics, insurance, Vodafone, W#UMLAUT#rttembergische Versicherung, connectivity, Allstate, auto accident, safe driving</doc_subhead>
   <doc_byline>Scott Gramling</doc_byline>
-  <doc_summary_med>Insurance firm Württembergische Versicherung will use a Vodafone app to track younger drivers.</doc_summary_med>
+  <doc_summary_med>Insurance firm W#UMLAUT#rttembergische Versicherung will use a Vodafone app to track younger drivers.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/07/734283/7529.jpg</doc_image>
   <doc_timestamp>AAAAAADPyAk=</doc_timestamp>
   <doc_doredirect>0</doc_doredirect>
@@ -198,7 +199,7 @@
   <doc_pool>Public</doc_pool>
   <doc_section>627</doc_section>
   <doc_published>2017-07-07T10:00:00</doc_published>
-  <doc_headline>Australia’s Fortescue Metals Sees Self-Driving Trucks as Worthy Investment</doc_headline>
+  <doc_headline>Australia's Fortescue Metals Sees Self-Driving Trucks as Worthy Investment</doc_headline>
   <doc_subhead>Fortescue, mining, fleet, autonomous trucks, Rio Tinto, Australia, iron</doc_subhead>
   <doc_summary_med>Fortescue announced it would expand the use of autonomous vehicles at its mining hubs in Solomon and Chichester.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/07/734197/4192.jpg</doc_image>
@@ -526,7 +527,7 @@
   <doc_pool>Public</doc_pool>
   <doc_section>627</doc_section>
   <doc_published>2017-07-11T08:05:00</doc_published>
-  <doc_headline>What Will People Do in Their Cars When They Don’t Have to Drive Them?</doc_headline>
+  <doc_headline>What Will People Do in Their Cars When They Don't Have to Drive Them?</doc_headline>
   <doc_subhead>autonomous vehicles, investment analysis, Morgan Stanley, food and beverage, Alphabet, Microsoft, Apple</doc_subhead>
   <doc_summary_med>Without a clear autonomous vehicle leader, investment analysts are looking to tangential industries.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/07/734361/5217.jpg</doc_image>
@@ -1319,7 +1320,7 @@
   <doc_pool>Public</doc_pool>
   <doc_section>627</doc_section>
   <doc_published>2017-07-20T12:00:00</doc_published>
-  <doc_headline>Detroit Faces a Driverless Car Perception Problem – Survey</doc_headline>
+  <doc_headline>Detroit Faces a Driverless Car Perception Problem -- Survey</doc_headline>
   <doc_subhead>Silicon Valley, Detroit, Tesla, Google, Ford, Volkswagen, Honda, self-driving cars, autonomous vehicles, customer survey</doc_subhead>
   <doc_summary_med>Customers appear to trust Silicon Valley to make driverless cars more than legacy automakers, according to a new survey.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/07/734582/32.jpg</doc_image>
@@ -4113,7 +4114,7 @@
   <doc_pool>Public</doc_pool>
   <doc_section>627</doc_section>
   <doc_published>2017-08-28T08:00:00</doc_published>
-  <doc_headline>Autonomous Scores Big With Consumers – Report </doc_headline>
+  <doc_headline>Autonomous Scores Big With Consumers -- Report </doc_headline>
   <doc_subhead>autonomous vehicles, self-driving cars, survey, University of London</doc_subhead>
   <doc_summary_med>A new survey from the University of London paints an encouraging portrayal of consumer attitudes toward autonomous vehicles. </doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/08/735474/5372.jpg</doc_image>
@@ -4394,7 +4395,7 @@
   <doc_pool>Public</doc_pool>
   <doc_section>627</doc_section>
   <doc_published>2017-08-31T12:00:00</doc_published>
-  <doc_headline>More Driverless Cars Equal Fewer Traffic Jams – Study </doc_headline>
+  <doc_headline>More Driverless Cars Equal Fewer Traffic Jams -- Study </doc_headline>
   <doc_subhead>traffic, self-driving cars, autonomous vehicles, congestion, highways, DOT, Arizona, Temple University</doc_subhead>
   <doc_summary_med>Your neighbor's self-driving car may make your commute shorter.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/08/735749/901.jpg</doc_image>
@@ -4559,7 +4560,7 @@
   <doc_pool>Public</doc_pool>
   <doc_section>627</doc_section>
   <doc_published>2017-09-05T08:00:00</doc_published>
-  <doc_headline>Drivers Warming Up to Autonomous Vehicles – Study</doc_headline>
+  <doc_headline>Drivers Warming Up to Autonomous Vehicles -- Study</doc_headline>
   <doc_subhead>Gartner, autonomous vehicles, self-driving cars, survey, research</doc_subhead>
   <doc_summary_med>New Gartner survey shows that the driving public is slowly warming up to the idea of autonomous vehicles.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/09/735756/205.jpg</doc_image>
@@ -4796,7 +4797,7 @@
   <doc_published>2017-09-07T12:00:00</doc_published>
   <doc_headline>UK Prepares to Test Platooning Self-Driving Trucks</doc_headline>
   <doc_subhead>fleet, trucking, lorries, Ricardo, Transit Research Laboratory, self-driving trucks, autonomous vehicles, platooning</doc_subhead>
-  <doc_summary_med>Trucks – or lorries, as the British call them – may soon traverse the UK without drivers.</doc_summary_med>
+  <doc_summary_med>Trucks -- or lorries, as the British call them -- may soon traverse the UK without drivers.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/09/735855/7459.jpg</doc_image>
   <doc_author>justin@10tenmedia.com</doc_author>
   <doc_timestamp>AAAAAADRZW4=</doc_timestamp>
@@ -4911,14 +4912,14 @@
   <doc_summary_short>Jaguar Land Rover is the latest OEM to bring AI to the driving experience.</doc_summary_short>
   <doc_summary_long>&lt;p&gt;Jaguar Land Rover unveiled an artificial intelligence-powered steering wheel &amp;ndash; the first of its kind &amp;ndash; at an event it hosted in London on Thursday, September 7.&lt;/p&gt;
 &lt;p&gt;Its name is Sayer and when you get home, you can detach it from the car and bring it inside, where it can perform hundreds of virtual assistant-like tasks, from monitoring traffic in order to decide when to call for an autonomous car to come to your door to ordering milk when it senses a dwindling supply in your refrigerator.&lt;/p&gt;
-&lt;p&gt;The steering wheel is part of the automaker's Future-Type concept &amp;ndash; also revealed at Jaguar Land Rover Tech Fest &amp;ndash; that shows how JLR thinks we might be driving in 25 years. The all-electric car showcases the company’s vision for a network of fully autonomous vehicles that operate under a shared, on-demand model.&lt;/p&gt;
+&lt;p&gt;The steering wheel is part of the automaker's Future-Type concept &amp;ndash; also revealed at Jaguar Land Rover Tech Fest &amp;ndash; that shows how JLR thinks we might be driving in 25 years. The all-electric car showcases the company's vision for a network of fully autonomous vehicles that operate under a shared, on-demand model.&lt;/p&gt;
 &lt;p&gt;In 2040, according to JLR, the connected steering wheel may be the only part of the car a consumer owns.&lt;/p&gt;
 &lt;p&gt;"The steering wheel would perhaps know your driving patterns, know the type of roads you like driving on, can understand how those conditions are at a certain time, and whether you would like to take the opportunity to drive the vehicle," said Hugo Nightingale, an advanced exterior design specialist at JLR. "It's contextually aware."&lt;/p&gt;
 </doc_summary_long>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/09/736132/5872.jpg</doc_image>
   <doc_text>&lt;p&gt;Jaguar Land Rover unveiled an artificial intelligence-powered steering wheel -- the first of its kind -- at an event it hosted in London on Thursday, September 7.&lt;/p&gt;
 &lt;p&gt;Its name is Sayer and when you get home, you can detach it from the car and bring it inside, where it can perform hundreds of virtual assistant-like tasks, from monitoring traffic in order to decide when to call for an autonomous car to come to your door to ordering milk when it senses a dwindling supply in your refrigerator.&lt;/p&gt;
-&lt;p&gt;The steering wheel is part of the automaker's FUTURE-TYPE concept -- also revealed at Jaguar Land Rover Tech Fest -- that shows how JLR thinks we might be driving in 25 years. The all-electric car showcases the company’s vision for a network of fully autonomous vehicles that operate under a shared, on-demand model.&lt;/p&gt;
+&lt;p&gt;The steering wheel is part of the automaker's FUTURE-TYPE concept -- also revealed at Jaguar Land Rover Tech Fest -- that shows how JLR thinks we might be driving in 25 years. The all-electric car showcases the company's vision for a network of fully autonomous vehicles that operate under a shared, on-demand model.&lt;/p&gt;
 &lt;p&gt;In 2040, according to JLR, the connected steering wheel may be the only part of the car a consumer owns.&lt;/p&gt;
 &lt;p&gt;"The steering wheel would perhaps know your driving patterns, know the type of roads you like driving on, can understand how those conditions are at a certain time, and whether you would like to take the opportunity to drive the vehicle," said Hugo Nightingale, Creative Specialist with Jaguar Design. "It's contextually aware."&lt;/p&gt;
 &lt;p&gt;Though the FUTURE-TYPE is accessible only through a virtual reality headset, JLR brought a physical prototype of Sayer, which is named after Jaguar E-type designer Malcom Sayer.&lt;/P&gt;   
@@ -5051,7 +5052,7 @@
   <doc_pool>Public</doc_pool>
   <doc_section>627</doc_section>
   <doc_published>2017-09-12T08:00:00</doc_published>
-  <doc_headline>Startup Zoox Recruits 17 Apple Auto Engineers – Report </doc_headline>
+  <doc_headline>Startup Zoox Recruits 17 Apple Auto Engineers -- Report </doc_headline>
   <doc_subhead>Zoox, Apple, self-driving cars, autonomous vehicles, Silicon Valley, Mark Harris, IEEE Spectrum</doc_subhead>
   <doc_summary_med>Startup Zoox might be even more secretive with its operations than Apple.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/09/736021/2808.jpg</doc_image>
@@ -5329,7 +5330,7 @@
   <doc_published>2017-09-15T08:00:00</doc_published>
   <doc_headline>Delphi Looks to End Electrical Issues in Self-Driving Cars</doc_headline>
   <doc_subhead>Delphi, Intel, Mobileye, Fiat-Chrysler, electric vehicles, electric cars, connected cars</doc_subhead>
-  <doc_summary_med>Powertrain specialist Delphi is making sure the electric cars of tomorrow – including driverless ones – will run smoothly.</doc_summary_med>
+  <doc_summary_med>Powertrain specialist Delphi is making sure the electric cars of tomorrow -- including driverless ones -- will run smoothly.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/09/736022/8408.jpg</doc_image>
   <doc_author>sam@10tenmedia.com</doc_author>
   <doc_timestamp>AAAAAADRuoE=</doc_timestamp>
@@ -5836,7 +5837,7 @@
   <doc_published>2017-09-22T12:00:00</doc_published>
   <doc_headline>Adobe Creating Personalized Ads for Connected Cars</doc_headline>
   <doc_subhead>Adobe, Adobe Experience Cloud, marketing, advertising, connected cars, targeted ads</doc_subhead>
-  <doc_summary_med>User data from connected cars takes a wide – and lucrative – variety of forms. Here's what Adobe is up to.</doc_summary_med>
+  <doc_summary_med>User data from connected cars takes a wide -- and lucrative -- variety of forms. Here's what Adobe is up to.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/09/736370/3842.jpg</doc_image>
   <doc_author>sam@10tenmedia.com</doc_author>
   <doc_timestamp>AAAAAADR6Cw=</doc_timestamp>
@@ -7173,7 +7174,7 @@
   <doc_section>623</doc_section>
   <doc_published>2017-10-13T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>PROMOTIONAL TERMS FOR THE "The Connected Car – Today and Tomorrow" WEBINAR AMAZON CARD GIVEAWAY</doc_headline>
+  <doc_headline>PROMOTIONAL TERMS FOR THE "The Connected Car -- Today and Tomorrow" WEBINAR AMAZON CARD GIVEAWAY</doc_headline>
   <doc_timestamp>AAAAAADSoEA=</doc_timestamp>
   <doc_doredirect>0</doc_doredirect>
   <section_id>623</section_id>
@@ -7362,7 +7363,7 @@
   <doc_section>623</doc_section>
   <doc_published>2017-10-17T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>PROMOTIONAL TERMS FOR THE "The Connected Car – Today and Tomorrow" WEBINAR AMAZON CARD GIVEAWAY</doc_headline>
+  <doc_headline>PROMOTIONAL TERMS FOR THE "The Connected Car -- Today and Tomorrow" WEBINAR AMAZON CARD GIVEAWAY</doc_headline>
   <doc_timestamp>AAAAAADSqrE=</doc_timestamp>
   <doc_doredirect>0</doc_doredirect>
   <section_id>623</section_id>
@@ -7752,7 +7753,7 @@
   <doc_section>623</doc_section>
   <doc_published>2017-10-23T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>PROMOTIONAL TERMS FOR THE "The Connected Car – Today and Tomorrow" WEBINAR STARBUCKS CARD GIVEAWAY</doc_headline>
+  <doc_headline>PROMOTIONAL TERMS FOR THE "The Connected Car -- Today and Tomorrow" WEBINAR STARBUCKS CARD GIVEAWAY</doc_headline>
   <doc_timestamp>AAAAAADS03Q=</doc_timestamp>
   <doc_doredirect>0</doc_doredirect>
   <section_id>623</section_id>
@@ -8067,7 +8068,7 @@
   <doc_pool>Public</doc_pool>
   <doc_section>627</doc_section>
   <doc_published>2017-10-26T08:00:00</doc_published>
-  <doc_headline>Driverless Car Investment Tops $80B – Report </doc_headline>
+  <doc_headline>Driverless Car Investment Tops $80B -- Report </doc_headline>
   <doc_subhead>Brookings Institution, think tank, autonomous vehicles, driverless cars, artificial intelligence, self-driving cars, investment research</doc_subhead>
   <doc_summary_med>Autonomous vehicles have been the subject of great investment from tech companies, automakers and outside investors, according to a recent report.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/10/737389/3744.jpg</doc_image>
@@ -8568,7 +8569,7 @@
   <doc_pool>Public</doc_pool>
   <doc_section>627</doc_section>
   <doc_published>2017-11-02T12:00:00</doc_published>
-  <doc_headline>Customers Will Pay More for Active Safety Features – Survey</doc_headline>
+  <doc_headline>Customers Will Pay More for Active Safety Features -- Survey</doc_headline>
   <doc_subhead>Edmunds, vehicle safety, autonomous vehicles, active safety, self-driving cars, AV</doc_subhead>
   <doc_summary_med>An Edmunds report gauges consumer attitudes on autonomous vehicles and finds safety is a top concern.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/11/737678/3555.jpg</doc_image>
@@ -8679,7 +8680,7 @@
   <doc_section>625</doc_section>
   <doc_published>2017-11-06T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER - Why a Truly Ubiquitous Platform Solution Rewards Everyone, Especially the Customer</doc_headline>
+  <doc_headline>ANALYST'S CORNER - Why a Truly Ubiquitous Platform Solution Rewards Everyone, Especially the Customer</doc_headline>
   <doc_url>https://img.lightreading.com/theconnectedcar/downloads/AnalaystCorner_GLOBETOUCH.PDF</doc_url>
   <doc_timestamp>AAAAAADVwg0=</doc_timestamp>
   <doc_doredirect>0</doc_doredirect>
@@ -8773,7 +8774,7 @@
   <doc_section>625</doc_section>
   <doc_published>2017-11-07T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER – Active Fleet Management in a Dynamic &amp; Complex Environment</doc_headline>
+  <doc_headline>ANALYST'S CORNER -- Active Fleet Management in a Dynamic &amp; Complex Environment</doc_headline>
   <doc_summary_short>This research analysis identifies what motivates the dynamic active fleet management and shares five trends that Cisco Jasper believes will shape the complex environment of the global fleet markets.</doc_summary_short>
   <doc_summary_med>&lt;p&gt;This paper provides an insight into the complex environment of active fleet management market and the challenges it faces as it grows. Readers will understand the anticipated size of the market and the five trends that are shaping its direction and trajectory:&lt;/p&gt;
 
@@ -9642,7 +9643,7 @@
   <doc_section>623</doc_section>
   <doc_published>2017-11-17T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>PROMOTIONAL TERMS FOR THE "ANALYST’S CORNER – Active Fleet Management in a Dynamic &amp; Complex Environment" WHITE PAPER STARBUCKS CARD GIVEAWAY</doc_headline>
+  <doc_headline>PROMOTIONAL TERMS FOR THE "ANALYST'S CORNER -- Active Fleet Management in a Dynamic &amp; Complex Environment" WHITE PAPER STARBUCKS CARD GIVEAWAY</doc_headline>
   <doc_timestamp>AAAAAADT7SE=</doc_timestamp>
   <doc_doredirect>0</doc_doredirect>
   <section_id>623</section_id>
@@ -9734,7 +9735,7 @@
   <doc_section>623</doc_section>
   <doc_published>2017-11-20T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>PROMOTIONAL TERMS FOR THE "ANALYST’S CORNER – Active Fleet Management in a Dynamic &amp; Complex Environment" WHITE PAPER STARBUCKS CARD GIVEAWAY</doc_headline>
+  <doc_headline>PROMOTIONAL TERMS FOR THE "ANALYST'S CORNER -- Active Fleet Management in a Dynamic &amp; Complex Environment" WHITE PAPER STARBUCKS CARD GIVEAWAY</doc_headline>
   <doc_timestamp>AAAAAADT++c=</doc_timestamp>
   <doc_doredirect>0</doc_doredirect>
   <section_id>623</section_id>
@@ -9753,7 +9754,7 @@
   <doc_published>2017-11-20T08:00:00</doc_published>
   <doc_headline>Why Self-Driving Cars Crash in Order to Save Lives</doc_headline>
   <doc_subhead>RAND corporation, autonomous vehicles, AVs, self-driving cars, driverless, traffic accidents, traffic deaths</doc_subhead>
-  <doc_summary_med>A RAND Corporation study suggests that introducing AVs to the road sooner rather than later – even if they're imperfect – could prevent many deaths.</doc_summary_med>
+  <doc_summary_med>A RAND Corporation study suggests that introducing AVs to the road sooner rather than later -- even if they're imperfect -- could prevent many deaths.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2017/11/738177/4424.jpg</doc_image>
   <doc_author>justin@10tenmedia.com</doc_author>
   <doc_timestamp>AAAAAADT6jw=</doc_timestamp>
@@ -10373,7 +10374,7 @@
   <doc_section>625</doc_section>
   <doc_published>2017-11-30T00:00:00</doc_published>
   <doc_editor>burns@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER - Mobility-as-a-Service Requires Platform Agility</doc_headline>
+  <doc_headline>ANALYST'S CORNER - Mobility-as-a-Service Requires Platform Agility</doc_headline>
   <doc_url>https://img.lightreading.com/theconnectedcar/downloads/Why-Mobility-as-a-Service-Requires-Platform-Agility..pdf</doc_url>
   <doc_timestamp>AAAAAADWVw0=</doc_timestamp>
   <doc_doredirect>1</doc_doredirect>
@@ -10891,7 +10892,7 @@
   <doc_section>625</doc_section>
   <doc_published>2017-12-07T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER - Connected Cars Require a Shift in Mindset</doc_headline>
+  <doc_headline>ANALYST'S CORNER - Connected Cars Require a Shift in Mindset</doc_headline>
   <doc_summary_short>The connected car is a complex machine comprising 50-plus sensors and, by some estimates, 100 million lines of software code. It is being subject to an intense period of innovation, both within the vehicle as well as the environment in which it operates. Consequently, the auto industry is at a decisive inflection point in terms of the core product that it produces. We shall explore some of these factors of inflection in this paper.</doc_summary_short>
   <doc_summary_med>&lt;p&gt;The connected car is a complex machine comprising 50-plus sensors and, by some estimates, 100 million lines of software code. It is being subject to an intense period of innovation, both within the vehicle as well as the environment in which it operates. Consequently, the auto industry is at a decisive inflection point in terms of the core product that it produces, and the essence of the business model that has sustained it for the past 100 plus years. We shall explore some of these factors of inflection in this paper.&lt;/p&gt;</doc_summary_med>
   <doc_url>https://img.lightreading.com/theconnectedcar/downloads/Analysts-Corner-Connected-Cars-Require-a-Shift-in-Mindset.pdf</doc_url>
@@ -11010,7 +11011,7 @@
   <doc_section>623</doc_section>
   <doc_published>2017-12-08T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>PROMOTIONAL TERMS FOR THE "ANALYST’S CORNER – Connected Cars Require a Shift in Mindset" WHITE PAPER STARBUCKS CARD GIVEAWAY</doc_headline>
+  <doc_headline>PROMOTIONAL TERMS FOR THE "ANALYST'S CORNER -- Connected Cars Require a Shift in Mindset" WHITE PAPER STARBUCKS CARD GIVEAWAY</doc_headline>
   <doc_timestamp>AAAAAADVHjY=</doc_timestamp>
   <doc_doredirect>0</doc_doredirect>
   <section_id>623</section_id>
@@ -12612,7 +12613,7 @@
   <doc_section>625</doc_section>
   <doc_published>2018-01-09T00:00:00</doc_published>
   <doc_editor>burns@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER: Connected &amp; Autonomous Cars – Industry Overview One: Shifting Frontiers</doc_headline>
+  <doc_headline>ANALYST'S CORNER: Connected &amp; Autonomous Cars -- Industry Overview One: Shifting Frontiers</doc_headline>
   <doc_url>https://img.lightreading.com/theconnectedcar/downloads/ANALYSTS-CORNER-Connected-Autonomous-Cars-Industry-Overview-One-Shifting-Frontiers.pdf</doc_url>
   <doc_timestamp>AAAAAADWVxQ=</doc_timestamp>
   <doc_doredirect>1</doc_doredirect>
@@ -13510,7 +13511,7 @@
   <doc_section>625</doc_section>
   <doc_published>2018-01-24T00:00:00</doc_published>
   <doc_editor>burns@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER: Connected &amp; Autonomous Cars Blog Two: Gradually Suddenly</doc_headline>
+  <doc_headline>ANALYST'S CORNER: Connected &amp; Autonomous Cars Blog Two: Gradually Suddenly</doc_headline>
   <doc_url>https://img.lightreading.com/theconnectedcar/downloads/ANALYSTS-CORNER-Connected-Autonomous-Cars-Blog-Two-Gradually-Suddenly.pdf</doc_url>
   <doc_timestamp>AAAAAADWVxs=</doc_timestamp>
   <doc_doredirect>1</doc_doredirect>
@@ -13972,7 +13973,7 @@
   <doc_section>625</doc_section>
   <doc_published>2018-01-31T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER: Connected &amp; Autonomous Cars Blog Three: Communications Fabric </doc_headline>
+  <doc_headline>ANALYST'S CORNER: Connected &amp; Autonomous Cars Blog Three: Communications Fabric </doc_headline>
   <doc_url>https://img.lightreading.com/theconnectedcar/downloads/ANALYSTS-CORNER-Connected-Autonomous-Cars-Blog-Three-Communications-Fabric.pdf</doc_url>
   <doc_timestamp>AAAAAADWjTs=</doc_timestamp>
   <doc_doredirect>1</doc_doredirect>
@@ -14353,7 +14354,7 @@
   <doc_section>625</doc_section>
   <doc_published>2018-02-07T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER: Connected &amp; Autonomous Cars Blog 4: Mapping &amp; Harvesting the Benefits of Industry Intersections</doc_headline>
+  <doc_headline>ANALYST'S CORNER: Connected &amp; Autonomous Cars Blog 4: Mapping &amp; Harvesting the Benefits of Industry Intersections</doc_headline>
   <doc_url>https://img.lightreading.com/theconnectedcar/downloads/ANALYSTS-CORNER-Connected-Autonomous-Cars-Blog-4-Mapping-Harvesting-the-Benefits-of-Industry-Intersections.pdf</doc_url>
   <doc_timestamp>AAAAAADWt0c=</doc_timestamp>
   <doc_doredirect>1</doc_doredirect>
@@ -14373,7 +14374,7 @@
   <doc_section>626</doc_section>
   <doc_published>2018-02-07T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER: Connected &amp; Autonomous Cars – Industry Overview One: Shifting Frontiers</doc_headline>
+  <doc_headline>ANALYST'S CORNER: Connected &amp; Autonomous Cars -- Industry Overview One: Shifting Frontiers</doc_headline>
   <doc_summary_short>&lt;p&gt;This report looks at the factors causing a tectonic shift in the industry and how being blind to adjacent and shoulder technologies can be dangerous. This report will also address why pivoting to adjust to new global technologies is essential.&lt;/p&gt;</doc_summary_short>
   <doc_summary_med>&lt;p&gt;This is the first of four analyst corner reports that will look at why the dynamics of the connected and autonomous car space are so fascinating, and how understanding the complex and interconnected technologies and trends can assist ecosystem players to be best positioned for future success.&lt;/p&gt;
 
@@ -14397,12 +14398,12 @@
   <doc_section>626</doc_section>
   <doc_published>2018-02-07T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER: Connected &amp; Autonomous Cars Report Two: Gradually Suddenly</doc_headline>
-  <doc_summary_short>This second report will discuss how the OEMS, ecosystem players and mobile operators should also be hyperaware of two other effects that will impact them and many other industries. The first is the “gradually  suddenly” scenario, where combinations of gradually evolving technologies are suddenly having an exponential impact because of the addition of a simple catalyst technology.</doc_summary_short>
+  <doc_headline>ANALYST'S CORNER: Connected &amp; Autonomous Cars Report Two: Gradually Suddenly</doc_headline>
+  <doc_summary_short>This second report will discuss how the OEMS, ecosystem players and mobile operators should also be hyperaware of two other effects that will impact them and many other industries. The first is the "gradually  suddenly" scenario, where combinations of gradually evolving technologies are suddenly having an exponential impact because of the addition of a simple catalyst technology.</doc_summary_short>
   <doc_summary_med>&lt;p&gt;In the first report in this series, we examined factors of the tectonic shift occurring in the automotive industry and 
 its frontiers, resulting in OEMs radically rethinking their business models.&lt;/p&gt;
 
-&lt;p&gt;This second report will discuss how the OEMS, ecosystem players and mobile operators should also be hyperaware of two other effects that will impact them and many other industries. The first is the “gradually  suddenly” scenario, where combinations of gradually evolving technologies are suddenly having an exponential impact because of the addition of a simple catalyst technology. The second effect is the “adjacent possible” concept. Download this free report to learn more.&lt;/p&gt;</doc_summary_med>
+&lt;p&gt;This second report will discuss how the OEMS, ecosystem players and mobile operators should also be hyperaware of two other effects that will impact them and many other industries. The first is the "gradually  suddenly" scenario, where combinations of gradually evolving technologies are suddenly having an exponential impact because of the addition of a simple catalyst technology. The second effect is the "adjacent possible" concept. Download this free report to learn more.&lt;/p&gt;</doc_summary_med>
   <doc_url>https://img.lightreading.com/theconnectedcar/downloads/ANALYSTS-CORNER-Connected-Autonomous-Cars-Blog-Two-Gradually-Suddenly.pdf</doc_url>
   <doc_timestamp>AAAAAADWw4s=</doc_timestamp>
   <doc_doredirect>1</doc_doredirect>
@@ -14422,7 +14423,7 @@ its frontiers, resulting in OEMs radically rethinking their business models.&lt;
   <doc_section>626</doc_section>
   <doc_published>2018-02-07T00:00:00</doc_published>
   <doc_editor>elmo@lightreading.com</doc_editor>
-  <doc_headline>ANALYST’S CORNER: Connected &amp; Autonomous Cars Report Three: Communications Fabric </doc_headline>
+  <doc_headline>ANALYST'S CORNER: Connected &amp; Autonomous Cars Report Three: Communications Fabric </doc_headline>
   <doc_summary_short>This is the third report in a series of four that will look at the dynamics of the connected and autonomous car space. In this report we will link the concepts and impacts, highlighted in the two previous reports, to the communications fabric that has enabled the connected car of today.</doc_summary_short>
   <doc_summary_med>&lt;p&gt;This is the third report in a series of four that will look at the dynamics of the connected and autonomous car space. In this report we will link the concepts and impacts, highlighted in the two previous reports, to the communications fabric that has enabled the connected car of today. From the earliest car phones that had fixed-line style handsets and cradles, to Bluetooth-linked smartphones and modern 4G enabled in car WiFi hotspots, drivers as well as passengers have become increasingly connected. Download this report to learn more.&lt;/p&gt;</doc_summary_med>
   <doc_url>https://img.lightreading.com/theconnectedcar/downloads/ANALYSTS-CORNER-Connected-Autonomous-Cars-Blog-Three-Communications-Fabric.pdf</doc_url>
@@ -15280,7 +15281,7 @@ its frontiers, resulting in OEMs radically rethinking their business models.&lt;
   <doc_section>627</doc_section>
   <doc_published>2018-02-21T12:00:00</doc_published>
   <doc_headline>Autonomous Vehicle Safety Remains a Consumer Roadblock  </doc_headline>
-  <doc_subhead>Autonomous Vehicles, self-driving vehicles, US, China, Germany, drivers, safety, AAA, TÜV Rheinland </doc_subhead>
+  <doc_subhead>Autonomous Vehicles, self-driving vehicles, US, China, Germany, drivers, safety, AAA, T#UMLAUT#V Rheinland </doc_subhead>
   <doc_byline>Nathan Eddy</doc_byline>
   <doc_summary_med>Drivers across the globe are worried not only about on-the-road safety but also have concerns over who has access to their driving data, according to a new report.</doc_summary_med>
   <doc_image>https://img.lightreading.com/theconnectedcar/2018/02/740709/5841.png</doc_image>
